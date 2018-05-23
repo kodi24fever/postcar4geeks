@@ -1,0 +1,63 @@
+html, body {
+    background-color: black;
+}
+
+
+#postCardContainer {
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    margin-top: 250px;
+    padding: 20px;
+}
+
+.flexBoxContainers {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.flexBoxContainers div {
+    width: 50%;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 29px
+}
+
+#secondHeaderBox {
+    text-align: right;
+}
+
+#leftTextContainer p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 19px;
+    margin: 0;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+#rightTextContainer input {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 19px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-style: italic;
+}
+
+input::placeholder {
+    color: #c0c0c0;
+}
+
+#bottomContainer {
+    text-align: center;
+}
+
+button {
+    font-family: 'Pacifico', cursive;
+    background-color: gray;
+    border: none;
+    font-size: 20px;
+}
